@@ -1,0 +1,471 @@
+{
+  "doctors": [
+    {
+      "id": "cdp1",
+      "name": "Prof. Dr. Shahab Uddin",
+      "speciality": "মেডিসিন বিশেষজ্ঞ",
+      "hospital": "CD Path & Hospital Pvt. Ltd.",
+      "timing": "সকাল ৯:০০ - দুপুর ৩:০০",
+      "phone": "01716-277211",
+      "fee": "১৫০০ টাকা",
+      "degree": "MBBS, FCPS (Internal Medicine), FCPS (USA), FRCP (USA)",
+      "image": "https://picsum.photos/seed/cdp1/200/200"
+    },
+    {
+      "id": "cdp2",
+      "name": "Prof. Dr. Triptish Chandra Ghose",
+      "speciality": "কার্ডিওলোজি বিশেষজ্ঞ",
+      "hospital": "CD Path & Hospital Pvt. Ltd.",
+      "timing": "দুপুর ১:০০ - রাত ৮:০০",
+      "phone": "01716-277211",
+      "fee": "১০০০ টাকা",
+      "degree": "MBBS, PHD (Cardiology), FACP, FESC, FRCP (Eden)",
+      "image": "https://picsum.photos/seed/cdp3/200/200"
+    },
+    {
+      "id": "cdp3",
+      "name": "Dr. Hasina Akter",
+      "speciality": "স্ত্রী ও প্রসূতি রোগ বিশেষজ্ঞ",
+      "hospital": "CD Path & Hospital Pvt. Ltd.",
+      "timing": "বিকাল ৫:০০ - রাত ৮:০০",
+      "phone": "01716-277211",
+      "fee": "১০০০ টাকা",
+      "degree": "MBBS, FCPS (Gyane), MRCOG (London)",
+      "image": "https://picsum.photos/seed/cdp5/200/200"
+    },
+    {
+      "id": "m1",
+      "name": "Dr. Mahfuzur Rahman",
+      "speciality": "কার্ডিওলোজি বিশেষজ্ঞ",
+      "hospital": "Moon Hospital Pvt. Ltd.",
+      "timing": "বিকাল ৫:০০ - রাত ৯:০০",
+      "phone": "01822-234567",
+      "fee": "১০০০ টাকা",
+      "degree": "MBBS, MD (Cardiology)",
+      "image": "https://picsum.photos/seed/m1/200/200"
+    },
+    {
+      "id": "m2",
+      "name": "Dr. Shamima Nasrin",
+      "speciality": "স্ত্রী ও প্রসূতি রোগ বিশেষজ্ঞ",
+      "hospital": "Moon Hospital Pvt. Ltd.",
+      "timing": "বিকাল ৪:০০ - রাত ৮:০০",
+      "phone": "01822-234567",
+      "fee": "৮০০ টাকা",
+      "degree": "MBBS, FCPS (Obs & Gynae)",
+      "image": "https://picsum.photos/seed/m2/200/200"
+    },
+    {
+      "id": "th1",
+      "name": "Prof. Dr. AKM Khairul Alam",
+      "speciality": "জেনারেল সার্জন",
+      "hospital": "Cumilla Medical Center Pvt. Ltd. (Tower Hospital)",
+      "timing": "সকাল ১০:০০ - দুপুর ২:০০",
+      "phone": "01966-777888",
+      "fee": "১০০০ টাকা",
+      "degree": "MBBS, FCPS (Surgery)",
+      "image": "https://picsum.photos/seed/th1/200/200"
+    },
+    {
+      "id": "th2",
+      "name": "Dr. Md. Emdadul Haque",
+      "speciality": "নেফ্রোলজি বিশেষজ্ঞ",
+      "hospital": "Cumilla Medical Center Pvt. Ltd. (Tower Hospital)",
+      "timing": "বিকাল ৫:০০ - রাত ৮:০০",
+      "phone": "01966-777888",
+      "fee": "৮০০ টাকা",
+      "degree": "MBBS, MD (Nephrology)",
+      "image": "https://picsum.photos/seed/th2/200/200"
+    },
+    {
+      "id": "tr1",
+      "name": "Dr. Zahirul Haque",
+      "speciality": "অর্থোপেডিক সার্জন",
+      "hospital": "Cumilla Trauma Center",
+      "timing": "বিকাল ৪:০০ - রাত ৮:০০",
+      "phone": "01855-666777",
+      "fee": "৮০০ টাকা",
+      "degree": "MBBS, MS (Orthopedics)",
+      "image": "https://picsum.photos/seed/tr1/200/200"
+    },
+    {
+      "id": "tr2",
+      "name": "Dr. S.M. Jahangir Kabir",
+      "speciality": "নাক, কান ও গলা বিশেষজ্ঞ",
+      "hospital": "Cumilla Trauma Center",
+      "timing": "সন্ধ্যা ৬:০০ - রাত ৯:০০",
+      "phone": "01855-666777",
+      "fee": "৮০০ টাকা",
+      "degree": "MBBS, DLO (ENT)",
+      "image": "https://picsum.photos/seed/tr2/200/200"
+    },
+    {
+      "id": "d7",
+      "name": "Dr. Mujibul Hoque",
+      "speciality": "শিশু হৃদরোগ বিশেষজ্ঞ",
+      "hospital": "CD Path & Hospital Pvt. Ltd.",
+      "timing": "বিকাল ৪:০০ - রাত ৮:০০",
+      "phone": "01716-277211",
+      "fee": "১০০০ টাকা",
+      "degree": "MBBS, D-Card, MD (Child Cardiology)",
+      "image": "https://picsum.photos/seed/d7/200/200"
+    },
+    {
+      "id": "d8",
+      "name": "Dr. Md. Mainul Islam",
+      "speciality": "লেজার ও কোলোরেক্টাল সার্জন",
+      "hospital": "United Hospital, Tomsom Bridge",
+      "timing": "সন্ধ্যা ৬:০০ - রাত ৯:০০",
+      "phone": "01711-555444",
+      "fee": "৮০০ টাকা",
+      "degree": "MBBS, FCPS (Surgery), MS (Colorectal)",
+      "image": "https://picsum.photos/seed/d8/200/200"
+    },
+    {
+      "id": "d9",
+      "name": "Prof. Dr. Syed Wahiduzzaman",
+      "speciality": "নিউরোলজি ও ক্রিটিক্যাল কেয়ার মেডিসিন",
+      "hospital": "Neuron Hospital and Diagnostic Center",
+      "timing": "সকাল ১০:০০ - দুপুর ২:০০",
+      "phone": "01999-901234",
+      "fee": "১২০০ টাকা",
+      "degree": "MBBS, MD (Neurology), MD (Critical Care)",
+      "image": "https://picsum.photos/seed/d9/200/200"
+    },
+    {
+      "id": "d10",
+      "name": "Dr. Tanvir Ahmed",
+      "speciality": "কিডনি ট্রান্সপ্ল্যান্ট ও ডায়ালাইসিস বিশেষজ্ঞ",
+      "hospital": "Midland Hospital Pvt. Ltd.",
+      "timing": "বিকাল ৫:০০ - রাত ৮:০০",
+      "phone": "01711-123456",
+      "fee": "১০০০ টাকা",
+      "degree": "MBBS, MD (Nephrology), Fellowship in Kidney Transplant",
+      "image": "https://picsum.photos/seed/d10/200/200"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "2",
+      "name": "Moon Hospital Pvt. Ltd.",
+      "address": "ঝাউতলা, কুমিল্লা",
+      "phone": "01822-234567",
+      "specialties": [
+        "স্ত্রী ও প্রসূতি রোগ বিশেষজ্ঞ",
+        "কার্ডিওলোজি বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h2/800/600"
+    },
+    {
+      "id": "3",
+      "name": "CD Path & Hospital Pvt. Ltd.",
+      "address": "বাদুড়তলা, কুমিল্লা",
+      "phone": "01716-277211",
+      "specialties": [
+        "মেডিসিন বিশেষজ্ঞ",
+        "কার্ডিওলোজি বিশেষজ্ঞ",
+        "স্ত্রী ও প্রসূতি রোগ বিশেষজ্ঞ",
+        "নবজাতক ও শিশু রোগ বিশেষজ্ঞ",
+        "নিউরোলজি বিশেষজ্ঞ",
+        "গ্যাস্ট্রোএন্টারোলজি বিশেষজ্ঞ",
+        "অর্থোপেডিক সার্জন",
+        "যৌন ও চর্মরোগ বিশেষজ্ঞ",
+        "বক্ষব্যাধি বিশেষজ্ঞ",
+        "চক্ষু বিশেষজ্ঞ ও সার্জন",
+        "ডেন্টাল সার্জন",
+        "এন্ডোক্রাইনোলজি ও ডায়াবেটিস বিশেষজ্ঞ",
+        "নেফ্রোলজি বিশেষজ্ঞ",
+        "ইউরোলজি বিশেষজ্ঞ",
+        "অনকোলজি বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h3/800/600"
+    },
+    {
+      "id": "4",
+      "name": "Health and Doctors Hospital",
+      "address": "টমছম ব্রিজ, কুমিল্লা",
+      "phone": "01744-456789",
+      "specialties": [
+        "জেনারেল সার্জন",
+        "নবজাতক ও শিশু রোগ বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h4/800/600"
+    },
+    {
+      "id": "5",
+      "name": "Mukti Hospital",
+      "address": "রানীর বাজার, কুমিল্লা",
+      "phone": "01855-567890",
+      "specialties": [
+        "অর্থোপেডিক সার্জন"
+      ],
+      "image": "https://picsum.photos/seed/h5/800/600"
+    },
+    {
+      "id": "6",
+      "name": "Meem Hospital",
+      "address": "লাকসাম রোড, কুমিল্লা",
+      "phone": "01966-678901",
+      "specialties": [
+        "মেডিসিন বিশেষজ্ঞ",
+        "ডেন্টাল সার্জন"
+      ],
+      "image": "https://picsum.photos/seed/h6/800/600"
+    },
+    {
+      "id": "7",
+      "name": "Mission Hospital (Cumilla Mission Hospital)",
+      "address": "নজরুল এভিনিউ, কুমিল্লা",
+      "phone": "01777-789012",
+      "specialties": [
+        "মেডিসিন বিশেষজ্ঞ",
+        "স্ত্রী ও প্রসূতি রোগ বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h7/800/600"
+    },
+    {
+      "id": "8",
+      "name": "Rokeya Maternity Clinic",
+      "address": "পুলিশ লাইন, কুমিল্লা",
+      "phone": "01888-890123",
+      "specialties": [
+        "স্ত্রী ও প্রসূতি রোগ বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h8/800/600"
+    },
+    {
+      "id": "9",
+      "name": "Neuron Hospital and Diagnostic Center",
+      "address": "ধর্মপুর, কুমিল্লা",
+      "phone": "01999-901234",
+      "specialties": [
+        "নিউরোলজি বিশেষজ্ঞ",
+        "জেনারেল সার্জন"
+      ],
+      "image": "https://picsum.photos/seed/h9/800/600"
+    },
+    {
+      "id": "10",
+      "name": "Life Care Hospital",
+      "address": "কান্দিরপাড়, কুমিল্লা",
+      "phone": "01711-222333",
+      "specialties": [
+        "কার্ডিওলোজি বিশেষজ্ঞ",
+        "মেডিসিন বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h10/800/600"
+    },
+    {
+      "id": "11",
+      "name": "Sonar Bangla Hospital",
+      "address": "স্টেশন রোড, কুমিল্লা",
+      "phone": "01822-333444",
+      "specialties": [
+        "জেনারেল সার্জন"
+      ],
+      "image": "https://picsum.photos/seed/h11/800/600"
+    },
+    {
+      "id": "12",
+      "name": "Cumilla Denta General Hospital",
+      "address": "রাজগঞ্জ, কুমিল্লা",
+      "phone": "01933-444555",
+      "specialties": [
+        "ডেন্টাল সার্জন"
+      ],
+      "image": "https://picsum.photos/seed/h12/800/600"
+    },
+    {
+      "id": "13",
+      "name": "Medi Hospital (Pvt.) Ltd.",
+      "address": "ঝাউতলা, কুমিল্লা",
+      "phone": "01744-555666",
+      "specialties": [
+        "মেডিসিন বিশেষজ্ঞ",
+        "নবজাতক ও শিশু রোগ বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h13/800/600"
+    },
+    {
+      "id": "14",
+      "name": "Cumilla Trauma Center",
+      "address": "টমছম ব্রিজ, কুমিল্লা",
+      "phone": "01855-666777",
+      "specialties": [
+        "অর্থোপেডিক সার্জন",
+        "জেনারেল সার্জন"
+      ],
+      "image": "https://picsum.photos/seed/h14/800/600"
+    },
+    {
+      "id": "15",
+      "name": "Cumilla Medical Center Pvt. Ltd. (Tower Hospital)",
+      "address": "লাকসাম রোড, কুমিল্লা",
+      "phone": "01966-777888",
+      "specialties": [
+        "কার্ডিওলোজি বিশেষজ্ঞ",
+        "মেডিসিন বিশেষজ্ঞ",
+        "নিউরোলজি বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h15/800/600"
+    },
+    {
+      "id": "16",
+      "name": "Maa Moni Hospital",
+      "address": "কোটবাড়ি, কুমিল্লা",
+      "phone": "01777-888999",
+      "specialties": [
+        "নবজাতক ও শিশু রোগ বিশেষজ্ঞ",
+        "স্ত্রী ও প্রসূতি রোগ বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h16/800/600"
+    },
+    {
+      "id": "17",
+      "name": "New Vision Model Hospital",
+      "address": "কান্দিরপাড়, কুমিল্লা",
+      "phone": "01888-999000",
+      "specialties": [
+        "মেডিসিন বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h17/800/600"
+    },
+    {
+      "id": "18",
+      "name": "B. Rahman General Hospital",
+      "address": "বাদুড়তলা, কুমিল্লা",
+      "phone": "01999-000111",
+      "specialties": [
+        "জেনারেল সার্জন"
+      ],
+      "image": "https://picsum.photos/seed/h18/800/600"
+    },
+    {
+      "id": "19",
+      "name": "United Hospital, Tomsom Bridge",
+      "address": "টমছম ব্রিজ, কুমিল্লা",
+      "phone": "01711-555444",
+      "specialties": [
+        "নাক, কান ও গলা বিশেষজ্ঞ",
+        "মেডিসিন বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h19/800/600"
+    },
+    {
+      "id": "20",
+      "name": "Cumilla Metropolitan Hospital",
+      "address": "লাকসাম রোড, কুমিল্লা",
+      "phone": "01822-666555",
+      "specialties": [
+        "কার্ডিওলোজি বিশেষজ্ঞ",
+        "জেনারেল সার্জন"
+      ],
+      "image": "https://picsum.photos/seed/h20/800/600"
+    },
+    {
+      "id": "21",
+      "name": "Comilla Central Hospital (Pvt.) Ltd.",
+      "address": "ঝাউতলা, কুমিল্লা",
+      "phone": "01933-777666",
+      "specialties": [
+        "মেডিসিন বিশেষজ্ঞ",
+        "স্ত্রী ও প্রসূতি রোগ বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h21/800/600"
+    },
+    {
+      "id": "22",
+      "name": "Comilla Popular Hospital (Pvt.) Ltd.",
+      "address": "কান্দিরপাড়, কুমিল্লা",
+      "phone": "01744-888777",
+      "specialties": [
+        "জেনারেল সার্জন",
+        "কার্ডিওলোজি বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h22/800/600"
+    },
+    {
+      "id": "23",
+      "name": "Green Lab Hospital (Gouripur, Daudkandi)",
+      "address": "দাউদকান্দি, কুমিল্লা",
+      "phone": "01855-999888",
+      "specialties": [
+        "মেডিসিন বিশেষজ্ঞ"
+      ],
+      "image": "https://picsum.photos/seed/h23/800/600"
+    },
+    {
+      "id": "24",
+      "name": "D.H. Hospital (EPZ Road, Tomsom Bridge)",
+      "address": "ইপিজি রোড, কুমিল্লা",
+      "phone": "01966-000999",
+      "specialties": [
+        "অর্থোপেডিক সার্জন",
+        "জেনারেল সার্জন"
+      ],
+      "image": "https://picsum.photos/seed/h24/800/600"
+    }
+  ],
+  "ambulances": [
+    {
+      "id": "a1",
+      "name": "Comilla Red Crescent Ambulance",
+      "phone": "01811-121212",
+      "type": "স্ট্যান্ডার্ড",
+      "availability": "২৪/৭"
+    },
+    {
+      "id": "a2",
+      "name": "Al-Shifa ICU Ambulance Service",
+      "phone": "01712-232323",
+      "type": "আইসিইউ",
+      "availability": "২৪/৭"
+    },
+    {
+      "id": "a3",
+      "name": "City Hospital Private Ambulance",
+      "phone": "01913-343434",
+      "type": "বেসিক",
+      "availability": "২৪/৭"
+    }
+  ],
+  "appointments": [
+    {
+      "patientName": "আব্দুল করিম",
+      "patientPhone": "01812345678",
+      "doctorId": "cdp1",
+      "doctorName": "Prof. Dr. Shahab Uddin",
+      "hospitalName": "CD Path & Hospital",
+      "preferredDate": "2026-10-20",
+      "problemSummary": "বুকে ব্যথা",
+      "id": "app_1791470819688_ufad",
+      "status": "অপেক্ষমাণ",
+      "createdAt": "2026-10-08T14:46:59.688Z"
+    },
+    {
+      "id": "app_seed_1",
+      "patientName": "মোহাম্মদ রফিকুল ইসলাম",
+      "patientPhone": "01811223344",
+      "doctorId": "cdp1",
+      "doctorName": "Prof. Dr. Shahab Uddin",
+      "hospitalName": "CD Path & Hospital Pvt. Ltd.",
+      "preferredDate": "২০২৬-১০-১৫",
+      "problemSummary": "দীর্ঘদিনের গ্যাস্ট্রিক ও বুকের অস্বস্তি সমস্যা",
+      "status": "নিশ্চিত",
+      "createdAt": "2026-10-08T14:46:43.460Z"
+    }
+  ],
+  "emergencies": [
+    {
+      "id": "emg_seed_1",
+      "callerName": "তানভীর হাসান",
+      "callerPhone": "01799887766",
+      "location": "কান্দিরপাড় মোড়, কুমিল্লা",
+      "serviceType": "আইসিইউ অ্যাম্বুলেন্স",
+      "notes": "হৃদরোগের রোগী, দ্রুত হাসপাতালে নেওয়া প্রয়োজন",
+      "status": "জরুরি",
+      "createdAt": "2026-10-08T14:46:43.461Z"
+    }
+  ],
+  "adminToken": "comilla_admin_secret_2026"
+}

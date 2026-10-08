@@ -1,9 +1,10 @@
-
 export enum Category {
   DOCTORS = 'ডাক্তার',
   HOSPITALS = 'হাসপাতাল',
+  DIAGNOSTIC = 'ডায়াগনস্টিক সেন্টার',
   AMBULANCE = 'অ্যাম্বুলেন্স',
-  DIAGNOSTIC = 'ডায়াগনস্টিক সেন্টার'
+  UPAZILA = 'উপজেলা ডিরেক্টরি',
+  CLUSTERS = 'হাসপাতাল তুলনা ও ক্লাস্টার'
 }
 
 export enum Department {
@@ -31,7 +32,11 @@ export enum Department {
   PREVENTIVE_MEDICINE = 'প্রিভেন্টিভ মেডিসিন বিশেষজ্ঞ',
   ONCOLOGY = 'অনকোলজি বিশেষজ্ঞ',
   KIDNEY_SPECIALIST = 'কিডনি ট্রান্সপ্ল্যান্ট ও ডায়ালাইসিস বিশেষজ্ঞ',
-  SURGERY = 'জেনারেল সার্জন'
+  SURGERY = 'জেনারেল সার্জন',
+  PHYSICAL_MEDICINE = 'ফিজিক্যাল মেডিসিন ও রিহ্যাবিলিটেশন',
+  NEUROSURGERY = 'নিউরোসার্জন',
+  VASCULAR_SURGERY = 'ভাস্কুলার ও এন্ডোভাস্কুলার সার্জন',
+  HEPATOLOGY = 'হেপাটোলজি (লিভার) বিশেষজ্ঞ'
 }
 
 export interface Hospital {
@@ -41,6 +46,19 @@ export interface Hospital {
   phone: string;
   specialties: Department[];
   image: string;
+  area?: string;
+  upazila?: string;
+  facilityType?: string;
+  categoryType?: 'সরকারি' | 'বেসরকারি' | 'সামরিক' | 'আধা-সরকারি';
+  bedCapacity?: string;
+  hasICU?: boolean;
+  hasCCU?: boolean;
+  hasNICU?: boolean;
+  hasDialysis?: boolean;
+  hasCTScan?: boolean;
+  hasMRI?: boolean;
+  services?: string[];
+  confidence?: 'HIGH' | 'MEDIUM' | 'LOW';
 }
 
 export interface Doctor {
@@ -53,6 +71,9 @@ export interface Doctor {
   image: string;
   fee?: string;
   degree?: string;
+  designation?: string;
+  multiFacilities?: string[];
+  departmentCategory?: string;
 }
 
 export interface Ambulance {
@@ -61,4 +82,37 @@ export interface Ambulance {
   phone: string;
   type: 'বেসিক' | 'আইসিইউ' | 'স্ট্যান্ডার্ড';
   availability: '২৪/৭' | 'সীমিত';
+}
+
+export interface Appointment {
+  id: string;
+  patientName: string;
+  patientPhone: string;
+  doctorId: string;
+  doctorName: string;
+  hospitalName: string;
+  preferredDate: string;
+  problemSummary?: string;
+  status: 'অপেক্ষমাণ' | 'নিশ্চিত' | 'বাতিল';
+  createdAt: string;
+}
+
+export interface EmergencyRequest {
+  id: string;
+  callerName: string;
+  callerPhone: string;
+  location: string;
+  serviceType: string;
+  notes?: string;
+  status: 'জরুরি' | 'সম্পন্ন' | 'বাতিল';
+  createdAt: string;
+}
+
+export interface UpazilaHealthData {
+  upazila: string;
+  governmentFacilities: string;
+  privateFacilities: string;
+  diagnosticCentres: string;
+  totalFacilities: string;
+  details: string;
 }
