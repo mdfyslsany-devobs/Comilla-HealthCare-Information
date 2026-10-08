@@ -4,7 +4,6 @@ import { Hospital, Doctor, Ambulance, Department } from './types';
 const CD_PATH_NAME = 'CD Path & Hospital Pvt. Ltd.';
 
 export const HOSPITALS: Hospital[] = [
-  { id: '1', name: 'Midland Hospital Pvt. Ltd.', address: 'কান্দিরপাড়, কুমিল্লা', phone: '01711-123456', specialties: [Department.MEDICINE, Department.SURGERY], image: 'https://picsum.photos/seed/h1/800/600' },
   { id: '2', name: 'Moon Hospital Pvt. Ltd.', address: 'ঝাউতলা, কুমিল্লা', phone: '01822-234567', specialties: [Department.GYNAECOLOGY, Department.CARDIOLOGY], image: 'https://picsum.photos/seed/h2/800/600' },
   { id: '3', name: CD_PATH_NAME, address: 'বাদুড়তলা, কুমিল্লা', phone: '01716-277211', specialties: [Department.MEDICINE, Department.CARDIOLOGY, Department.GYNAECOLOGY, Department.PEDIATRICS, Department.NEUROLOGY, Department.GASTROENTEROLOGY, Department.ORTHOPEDICS, Department.DERMATOLOGY, Department.CHEST_MEDICINE, Department.EYE, Department.DENTAL, Department.ENDOCRINOLOGY, Department.NEPHROLOGY, Department.UROLOGY, Department.ONCOLOGY], image: 'https://picsum.photos/seed/h3/800/600' },
   { id: '4', name: 'Health and Doctors Hospital', address: 'টমছম ব্রিজ, কুমিল্লা', phone: '01744-456789', specialties: [Department.SURGERY, Department.PEDIATRICS], image: 'https://picsum.photos/seed/h4/800/600' },
